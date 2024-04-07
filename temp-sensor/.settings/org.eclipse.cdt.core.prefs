@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/BATCH_BUILD/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/BATCH_BUILD/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/BATCH_BUILD/value=1
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/IDF_PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/IDF_PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/IDF_PATH/value=/home/m4l490n/Projects/esp/ESP8266_RTOS_SDK
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/PATH/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/PATH/operation=replace
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/PATH/value=/home/m4l490n/Projects/esp/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-linux-amd64/xtensa-lx106-elf/bin\:/bin\:/home/m4l490n/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin\:/home/m4l490n/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin\:/home/m4l490n/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin\:/home/m4l490n/.espressif/tools/xtensa-esp32s2-elf/esp-12.2.0_20230208/xtensa-esp32s2-elf/bin\:/home/m4l490n/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin\:/home/m4l490n/.espressif/tools/esp-clang/15.0.0-23786128ae/esp-clang/bin\:/home/m4l490n/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin\:/home/m4l490n/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin\:/home/m4l490n/.espressif/tools/cmake/3.24.0/bin\:/home/m4l490n/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin\:/home/m4l490n/.espressif/tools/ninja/1.10.2/\:/home/m4l490n/.espressif/python_env/idf5.1_py3.10_env/bin\:/home/m4l490n/Projects/esp/esp-idf-v5.1.2/tools\:/home/m4l490n/.cargo/bin\:/home/m4l490n/.local/bin\:/home/m4l490n/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/usr/games\:/usr/local/games\:/snap/bin\:/snap/bin\:/home/m4l490n/.dotnet/tools
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.493313032/appendContributed=true

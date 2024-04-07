@@ -1,0 +1,27 @@
+menu "Motion Sensor Configuration"
+
+config MOTION_IPV4_ADDR
+    string "IPV4 Address"
+    default "192.168.1.76"
+    help
+       The sensor will connect to this IPV4 address.
+
+config MOTION_SENSOR_PORT
+    int "Port"
+    range 0 65535
+    default 3333
+    help
+        The remote port to which the client sensor will connect to.
+
+config MOTION_WIFI_SSID
+    string "WiFi SSID"
+    default "myssid"
+    help
+        SSID (network name) for the sensor to connect to.
+
+config MOTION_WIFI_PASSWORD
+    string "WiFi Password"
+    default "mypassword"
+    help
+        WiFi password (WPA or WPA2) for the senso to use.
+endmenu

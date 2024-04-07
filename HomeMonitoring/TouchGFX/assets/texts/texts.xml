@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="GarageOccupancy" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="GarageOccu" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="GarageHumidity" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="GarageHum" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The humidity is &lt;&gt;%</Translation>
+      </Text>
+      <Text Id="GarageTemperature" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LaundryOccupancy" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="LaundryOccu" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="LaundryHumidity" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LaundryHum" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The humidity is &lt;&gt;%</Translation>
+      </Text>
+      <Text Id="GarageTemp" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The temperature is &lt;&gt;°</Translation>
+      </Text>
+      <Text Id="LaundryTemperature" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LaundryTemp" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The temperature is &lt;&gt;°</Translation>
+      </Text>
+      <Text Id="LivingRoomOccupancy" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="LivingRoomOccu" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="LivinRoomHumidity" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LivinRoomHum" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The humidity is &lt;&gt;%</Translation>
+      </Text>
+      <Text Id="LivingRoomTemperature" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LivingRoomTemp" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The temperature is &lt;&gt;°</Translation>
+      </Text>
+      <Text Id="BedroomOccupancy" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="BedroomOccu" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="BedroomHumidity" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="BedroomHum" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The humidity is &lt;&gt;%</Translation>
+      </Text>
+      <Text Id="BedroomTemperature" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="BedroomTemp" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">The temperature is &lt;&gt;°</Translation>
+      </Text>
+      <Text Id="GarageOccupancyValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="GarageHumidityValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LaundryOccupancyValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="LundryHumidityValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LivinRoomOccupancyValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="LivinRoomHumidityValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="GarageTempValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LaundryTempValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="LivinRoomTempValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="BedRoomOccupancyValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Empty</Translation>
+      </Text>
+      <Text Id="BedRoomHumidityValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="BedRoomTempValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="GarageOccupancyVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="LaundryOccupancyVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="LivinRoomOccupancyVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="BedRoomOccupancyVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_4FJC" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Home</Translation>
+      </Text>
+      <Text Id="__SingleUse_78WF" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Home</Translation>
+      </Text>
+      <Text Id="__SingleUse_BNBU" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Home</Translation>
+      </Text>
+      <Text Id="__SingleUse_PYNR" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Home</Translation>
+      </Text>
+      <Text Id="__SingleUse_B8D6" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Garage</Translation>
+      </Text>
+      <Text Id="__SingleUse_4X2S" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Laundry Room</Translation>
+      </Text>
+      <Text Id="__SingleUse_CH24" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Living Room</Translation>
+      </Text>
+      <Text Id="__SingleUse_GXCM" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">Bedroom</Translation>
+      </Text>
+      <Text Id="GarageHumidityVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;%</Translation>
+      </Text>
+      <Text Id="GarageTempVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;°</Translation>
+      </Text>
+      <Text Id="LundryHumidityVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;%</Translation>
+      </Text>
+      <Text Id="LaundryTempVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;°</Translation>
+      </Text>
+      <Text Id="LivinRoomHumidityVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;%</Translation>
+      </Text>
+      <Text Id="LivinRoomTempVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;°</Translation>
+      </Text>
+      <Text Id="BedRoomHumidityVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;%</Translation>
+      </Text>
+      <Text Id="BedRoomTempVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;°</Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_03" Font="verdana.ttf" Size="30" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacters="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM" />
+  </Typographies>
+</TextDatabase>

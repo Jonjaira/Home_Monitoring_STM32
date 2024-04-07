@@ -1,0 +1,1200 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Home",
+        "Components": [
+          {
+            "Type": "Container",
+            "Name": "Bedroom",
+            "Width": 121,
+            "Height": 272,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "BedroomBackground",
+                "Width": 121,
+                "Height": 272,
+                "LockPosition": true,
+                "Filename": "Background.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "BedRoomOccupancyVal",
+                "X": 50,
+                "Y": 231,
+                "Width": 32,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "BedRoomOccupancyVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "BedRoomOccupancyValue",
+                  "UseBuffer": true,
+                  "BufferSize": 11
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "BedRoomOccupancyIcon",
+                "X": 13,
+                "Y": 220,
+                "Width": 30,
+                "Height": 32,
+                "LockPosition": true,
+                "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "BedRoomHumidityVal",
+                "X": 50,
+                "Y": 192,
+                "Width": 30,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "BedRoomHumidityVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "BedRoomHumidityValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "BedRoomHumidityIcon",
+                "X": 11,
+                "Y": 181,
+                "Width": 32,
+                "Height": 36,
+                "LockPosition": true,
+                "Filename": "Humidity.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "BedRoomTempVal",
+                "X": 50,
+                "Y": 154,
+                "Width": 25,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "BedRoomTempVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "BedRoomTempValue",
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "BedRoomTempIcon",
+                "X": 12,
+                "Y": 145,
+                "Width": 32,
+                "Height": 30,
+                "LockPosition": true,
+                "Filename": "TempBW.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "BedroomButton",
+                "X": 14,
+                "Y": 35,
+                "Width": 100,
+                "Height": 100,
+                "LockPosition": true,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_normal.png",
+                "IconPressed": "bedroom.png",
+                "IconReleased": "bedroom.png",
+                "IconHeight": 100,
+                "IconWidth": 100,
+                "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\small_outline_normal.json"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "LivingRoom",
+            "X": 121,
+            "Width": 121,
+            "Height": 272,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "LivingroomBackground",
+                "Width": 121,
+                "Height": 272,
+                "LockPosition": true,
+                "Filename": "Background.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LivinRoomOccupancyVal",
+                "X": 50,
+                "Y": 231,
+                "Width": 32,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LivinRoomOccupancyVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "LivinRoomOccupancyValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LivinRoomOccupancyIcon",
+                "X": 11,
+                "Y": 220,
+                "Width": 30,
+                "Height": 32,
+                "LockPosition": true,
+                "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LivinRoomHumidityVal",
+                "X": 50,
+                "Y": 192,
+                "Width": 30,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LivinRoomHumidityVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "LivinRoomHumidityValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LivinRoomHumidityIcon",
+                "X": 10,
+                "Y": 181,
+                "Width": 32,
+                "Height": 36,
+                "LockPosition": true,
+                "Filename": "Humidity.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LivinRoomTempVal",
+                "X": 50,
+                "Y": 154,
+                "Width": 25,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LivinRoomTempVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "LivinRoomTempValue",
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LivingRoomTempIcon",
+                "X": 10,
+                "Y": 145,
+                "Width": 32,
+                "Height": 30,
+                "LockPosition": true,
+                "Filename": "TempBW.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "LivingRoomButton",
+                "X": 11,
+                "Y": 35,
+                "Width": 100,
+                "Height": 100,
+                "LockPosition": true,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_normal.png",
+                "IconPressed": "livingroom.png",
+                "IconReleased": "livingroom.png",
+                "IconHeight": 100,
+                "IconWidth": 100,
+                "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\small_outline_normal.json"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "LaundryRoom",
+            "X": 241,
+            "Width": 121,
+            "Height": 272,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "LaundryBackground",
+                "Width": 121,
+                "Height": 272,
+                "LockPosition": true,
+                "Filename": "Background.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LaundryOccupancyVal",
+                "X": 50,
+                "Y": 231,
+                "Width": 32,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LaundryOccupancyVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "LaundryOccupancyValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LaundryOcupancyIcon",
+                "X": 11,
+                "Y": 220,
+                "Width": 30,
+                "Height": 32,
+                "LockPosition": true,
+                "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LundryHumidityVal",
+                "X": 50,
+                "Y": 192,
+                "Width": 30,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LundryHumidityVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "LundryHumidityValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LaundryHumidityIcon",
+                "X": 10,
+                "Y": 181,
+                "Width": 32,
+                "Height": 36,
+                "LockPosition": true,
+                "Filename": "Humidity.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "LaundryTempVal",
+                "X": 50,
+                "Y": 154,
+                "Width": 25,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "LaundryTempVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "LaundryTempValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "LaundryTempIcon",
+                "X": 11,
+                "Y": 145,
+                "Width": 32,
+                "Height": 30,
+                "LockPosition": true,
+                "Filename": "TempBW.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "LaundryRoomButton",
+                "X": 11,
+                "Y": 35,
+                "Width": 100,
+                "Height": 100,
+                "LockPosition": true,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_normal.png",
+                "IconPressed": "laundry.png",
+                "IconReleased": "laundry.png",
+                "IconHeight": 100,
+                "IconWidth": 100,
+                "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\small_outline_normal.json"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "Garage",
+            "X": 361,
+            "Width": 120,
+            "Height": 272,
+            "LockPosition": true,
+            "Components": [
+              {
+                "Type": "ScalableImage",
+                "Name": "GarageBackground",
+                "Width": 120,
+                "Height": 272,
+                "LockPosition": true,
+                "Filename": "Background.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "GarageOccupancyVal",
+                "X": 50,
+                "Y": 231,
+                "Width": 32,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "GarageOccupancyVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "GarageOccupancyValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "GarageOccupancyIcon",
+                "X": 14,
+                "Y": 220,
+                "Width": 30,
+                "Height": 32,
+                "LockPosition": true,
+                "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "GarageHumidityVal",
+                "X": 50,
+                "Y": 192,
+                "Width": 30,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "GarageHumidityVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "GarageHumidityValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "GarageHumidityIcon",
+                "X": 12,
+                "Y": 181,
+                "Width": 32,
+                "Height": 36,
+                "LockPosition": true,
+                "Filename": "Humidity.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "GarageTempVal",
+                "X": 50,
+                "Y": 154,
+                "Width": 25,
+                "Height": 12,
+                "LockPosition": true,
+                "TextId": "GarageTempVal",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Wildcard1": {
+                  "TextId": "GarageTempValue",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "GarageTempIcon",
+                "X": 12,
+                "Y": 145,
+                "Width": 32,
+                "Height": 30,
+                "LockPosition": true,
+                "Filename": "TempBW.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "GarageButton",
+                "X": 5,
+                "Y": 35,
+                "Width": 100,
+                "Height": 100,
+                "LockPosition": true,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_small_outline_normal.png",
+                "IconPressed": "garage.png",
+                "IconReleased": "garage.png",
+                "IconHeight": 100,
+                "IconWidth": 100,
+                "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\small_outline_normal.json"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BedroomButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "BedRoom"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "LivingRoomButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "LivingRoom"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "LaundryRoomButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "LaundryRoom"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "GarageButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Garage"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "BedRoom",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\clay_theme_images_backgrounds_1024x600_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 169,
+            "Y": 19,
+            "Width": 136,
+            "Height": 36,
+            "TextId": "__SingleUse_GXCM",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 335,
+            "Y": 203,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "TextId": "__SingleUse_BNBU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_inactive.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 30,
+            "Y": 58,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "TempBW.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 30,
+            "Y": 129,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "Humidity.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 30,
+            "Y": 197,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BedroomTemp",
+            "X": 113,
+            "Y": 71,
+            "Width": 335,
+            "Height": 36,
+            "TextId": "BedroomTemp",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "BedroomTemperature",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BedroomHum",
+            "X": 113,
+            "Y": 142,
+            "Width": 295,
+            "Height": 36,
+            "TextId": "BedroomHum",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "BedroomHumidity",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BedroomOccu",
+            "X": 113,
+            "Y": 210,
+            "Width": 97,
+            "Height": 36,
+            "TextId": "BedroomOccu",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "BedroomOccupancy"
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LivingRoom",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\clay_theme_images_backgrounds_1024x600_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 148,
+            "Y": 19,
+            "Width": 185,
+            "Height": 36,
+            "TextId": "__SingleUse_CH24",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 360,
+            "Y": 211,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "TextId": "__SingleUse_78WF",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_inactive.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 25,
+            "Y": 48,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "TempBW.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LivingRoomTemp",
+            "X": 88,
+            "Y": 75,
+            "Width": 335,
+            "Height": 36,
+            "TextId": "LivingRoomTemp",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LivingRoomTemperature"
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 25,
+            "Y": 128,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "Humidity.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LivinRoomHum",
+            "X": 88,
+            "Y": 141,
+            "Width": 295,
+            "Height": 36,
+            "TextId": "LivinRoomHum",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LivinRoomHumidity"
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 25,
+            "Y": 191,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LivingRoomOccu",
+            "X": 88,
+            "Y": 211,
+            "Width": 97,
+            "Height": 36,
+            "TextId": "LivingRoomOccu",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LivingRoomOccupancy"
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LaundryRoom",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\clay_theme_images_backgrounds_1024x600_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 131,
+            "Y": 19,
+            "Width": 219,
+            "Height": 36,
+            "TextId": "__SingleUse_4X2S",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 359,
+            "Y": 212,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "TextId": "__SingleUse_4FJC",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_inactive.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 16,
+            "Y": 55,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "TempBW.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LaundryTemp",
+            "X": 83,
+            "Y": 76,
+            "Width": 335,
+            "Height": 36,
+            "TextId": "LaundryTemp",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LaundryTemperature",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 16,
+            "Y": 132,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "Humidity.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LaundryHum",
+            "X": 83,
+            "Y": 145,
+            "Width": 295,
+            "Height": 36,
+            "TextId": "LaundryHum",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LaundryHumidity",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 16,
+            "Y": 199,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LaundryOccu",
+            "X": 83,
+            "Y": 212,
+            "Width": 97,
+            "Height": 36,
+            "TextId": "LaundryOccu",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "LaundryOccupancy",
+              "UseBuffer": true,
+              "BufferSize": 11
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Garage",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\clay_theme_images_backgrounds_1024x600_gradient_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 185,
+            "Y": 23,
+            "Width": 108,
+            "Height": 36,
+            "TextId": "__SingleUse_B8D6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 355,
+            "Y": 211,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_inactive.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_inactive.png",
+            "TextId": "__SingleUse_PYNR",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GarageTemp",
+            "X": 82,
+            "Y": 79,
+            "Width": 335,
+            "Height": 36,
+            "TextId": "GarageTemp",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "GarageTemperature",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 19,
+            "Y": 59,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "TempBW.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 19,
+            "Y": 136,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "Humidity.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GarageHum",
+            "X": 82,
+            "Y": 149,
+            "Width": 295,
+            "Height": 36,
+            "TextId": "GarageHum",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "GarageHumidity",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 19,
+            "Y": 198,
+            "Width": 63,
+            "Height": 63,
+            "Filename": "__generated\\icon_theme_images_social_person_outline_50_50_FFFFFF.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GarageOccu",
+            "X": 82,
+            "Y": 218,
+            "Width": 97,
+            "Height": 36,
+            "TextId": "GarageOccu",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "GarageOccupancy",
+              "UseBuffer": true,
+              "BufferSize": 11
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "HomeMonitoring",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Home",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.1",
+  "CreatedBy": "4.23.1"
+}
